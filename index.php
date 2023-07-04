@@ -30,7 +30,7 @@ Gestire ulteriori parametri per la password: quali caratteri usare fra numeri, l
         <form action="./server.php" method="get" class="w-100">
             <label for="pwlength">Lunghezza Password:</label>
             <input type="number" name="pwlength">
-            <button type="button" class="btn btn-primary">Invia</button>
+            <button type="submit" class="btn btn-primary">Invia</button>
             <button type="reset" class="btn btn-secondary">Annulla</button>
         </form>
     </div>
