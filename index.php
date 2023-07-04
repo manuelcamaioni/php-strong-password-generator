@@ -24,12 +24,14 @@ Invece di visualizzare la password nella index, effettuare un redirect ad una pa
 BONUS 2: Milestone 4
 Gestire ulteriori parametri per la password: quali caratteri usare fra numeri, lettere e simboli. Possono essere scelti singolarmente (es. solo numeri) oppure possono essere combinati fra loro (es. numeri e simboli, oppure tutti e tre insieme). Dare all’utente anche la possibilità di permettere o meno la ripetizione di caratteri uguali. -->
 <body>
-    <div class="my-container w-75 m-auto">
+    <div class="my-container w-75 m-auto text-center">
         <h1>Strong Password Generator</h1>
         <h2>Genera una Password sicura</h2>
-        <form action="./server.php" method="get">
+        <form action="./server.php" method="get" class="w-100">
             <label for="pwlength">Lunghezza Password:</label>
             <input type="number" name="pwlength">
+            <button type="button" class="btn btn-primary">Invia</button>
+            <button type="reset" class="btn btn-secondary">Annulla</button>
         </form>
     </div>
     
